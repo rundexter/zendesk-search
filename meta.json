@@ -2,25 +2,46 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "query",
+            "title":"Query"
+        },
+        {
+            "id": "sort_by",
+            "title":"Sort By"
+        },
+        {
+            "id": "sort_order",
+            "title":"Sort Order"
         }
-        */
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"ID"
+        },
+        {
+            "id": "name",
+            "title":"Name"
+        },
+        {
+            "id": "result_type",
+            "title":"Result Type"
+        },
+        {
+            "id": "url",
+            "title":"URL"
+        },
+        {
+            "id": "created_at",
+            "title":"Created At"
+        },
+        {
+            "id": "updated_at",
+            "title":"Updated At"
         }
-      */
     ],
+    "icon": "dex-zendesk",
     "title": "Zendesk: Search" /* Required.A display name for the module */
 }
